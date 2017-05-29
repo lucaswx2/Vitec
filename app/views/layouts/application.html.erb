@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vitec</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <%= stylesheet_link_tag "freelancer/css/freelancer.css" %>
+
+    <%= javascript_include_tag "freelancer/js/freelancer.js" %>
+    <%= javascript_include_tag "freelancer/js/jqBootstrapValidation.js" %>
+
+
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
